@@ -133,7 +133,7 @@ body {
 
 .dropdown-menu {
     list-style:    none;
-    background:    #E4E4E4;
+    background:    #E8FCC2;
     box-shadow:    0px 0px 0px 1px rgba(14, 16, 20, 0.04), 0px 0px 2px rgba(14, 16, 20, 0.08), 0px 4px 12px rgba(14, 16, 20, 0.08);
     border-radius: 10px;
     padding:       0;
@@ -148,7 +148,6 @@ body {
     line-height: 1.2;
     text-decoration: none;
     color: black;
-    background: ;
     border-radius: 10px;
     display:       block;
 
@@ -203,12 +202,157 @@ h1 {
     border: none;
 
     position: absolute;
-	top: 90%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+
+    margin-top: 90px;
 }
 
 .btn:hover {
     background: #FF7D00;
+}
+
+/* Our Story */
+.block {
+    box-sizing: border-box;
+
+    background: #B1CC74;
+    width: 1180px;
+    margin: 100px auto 0 auto;
+    border-radius: 20px 20px 0 0;
+
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+
+    letter-spacing: 0.5em;
+    
+    color: #34623F;
+}
+
+.quote {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    text-align: center; 
+}
+
+q {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5; 
+}
+
+
+.content {
+    box-sizing: border-box;
+    width: 555px;
+    height: 336px;
+
+    background: #E8FCC2;
+    border: 3px solid #34623F;
+    border-radius: 20px;
+
+    margin: 30px 25px 0 20px;
+}
+
+h3 {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.3em;
+
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    color: #FF7D00;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #000000;
+
+    margin: 20px 20px 26px 20px;
+}
+
+.btn-learn {
+    color: #FFFFFF;
+    padding: 5px 10px;
+
+    margin: 0 20px 20px 20px;
+    float: right;
+
+    background: #34623F;
+    border-radius: 10px;
+}
+
+.size {
+    width: 560px;
+    height: 336px;
+
+    margin: 30px 0 0 0;
+}
+
+.img-bor {
+    border: 3px solid #34623F;
+    border-radius: 20px;  
+}
+
+.block-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.block-cont {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Our mission */
+.conteiner {
+    box-sizing: border-box;
+    width: 1180px;
+    
+    background: #E8FCC2;
+    border-radius: 0px 0px 20px 20px;
+    top: 0;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+
+    padding: 50px 20px 15px 20px;
+}
+
+.res {
+    width: 665px;
+    height: 300px;
+
+    margin-right: 15px;
+}
+
+.bee {
+    width: 460px;
+    height: 300px;
+}
+
+.img-s {
+    width: 277px;
+    height: 202px;  
 }
