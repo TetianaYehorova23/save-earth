@@ -290,6 +290,9 @@ h3 {
 }
 
 .btn-learn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
     color: #FFFFFF;
     padding: 5px 10px;
 
@@ -297,6 +300,15 @@ h3 {
     float: right;
 
     background: #34623F;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-learn:hover {
+    color: #34623F;
+
+    background: #FFFFFF;
+    border: 3px solid #34623F;
     border-radius: 10px;
 }
 
@@ -326,11 +338,12 @@ h3 {
 .conteiner {
     box-sizing: border-box;
     width: 1180px;
+    height: 812px;
     
     background: #E8FCC2;
     border-radius: 0px 0px 20px 20px;
     top: 0;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .top {
@@ -354,5 +367,24 @@ h3 {
 
 .img-s {
     width: 277px;
-    height: 202px;  
+    height: 202px;
+
+    margin: 0 5px 30px 0;
 }
+
+.img-s:first-child {
+    margin-left: 20px;
+}
+
+.img-s:last-child {
+    margin-right: 20px;
+}
+
+.conteiner > h2 {
+    padding-top: 0;
+}
+
+
+
+
+
