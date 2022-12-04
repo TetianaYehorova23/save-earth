@@ -91,19 +91,21 @@ body {
     line-height: 1.2;
 
     margin: 0;
-    padding: 10px 5px;
+    
     text-transform: uppercase;
 }
 
 .layout-nav > ul > li > a {
     color: #FFFFFF;
     text-decoration: none;
+    
+    padding: 5px 10px;
 }
 
 .layout-nav > ul > li > a:hover {
     color: black;
     background: #B1CC74;
-    padding: 5px 10px;
+    
     border-radius: 10px;
 }
 
@@ -143,15 +145,16 @@ body {
 }
 
 .dropdown-menu > li > a {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-size:       16px;
+    font-weight:     700;
+    line-height:     1.2;
     text-decoration: none;
-    color: black;
-    border-radius: 10px;
-    display:       block;
+    color:           black;
+    border-radius:   10px;
+    display:         block;
 
-    padding:       10px;
+    padding:         10px;
+    margin-top:      5px;
 }
 
 .dropdown-menu > li > a:hover {
@@ -306,7 +309,8 @@ h3 {
 
 .btn-learn:hover {
     color: #34623F;
-
+    
+    padding: 2px 7px;
     background: #FFFFFF;
     border: 3px solid #34623F;
     border-radius: 10px;
@@ -320,7 +324,6 @@ h3 {
 }
 
 .img-bor {
-    border: 3px solid #34623F;
     border-radius: 20px;  
 }
 
@@ -343,12 +346,13 @@ h3 {
     background: #E8FCC2;
     border-radius: 0px 0px 20px 20px;
     top: 0;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 .top {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
     padding: 50px 20px 15px 20px;
 }
@@ -365,24 +369,82 @@ h3 {
     height: 300px;
 }
 
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 0 20px 30px 20px;
+}
+
 .img-s {
     width: 277px;
     height: 202px;
-
-    margin: 0 5px 30px 0;
 }
 
-.img-s:first-child {
-    margin-left: 20px;
-}
-
-.img-s:last-child {
-    margin-right: 20px;
-}
 
 .conteiner > h2 {
     padding-top: 0;
 }
+
+/* Donation form */
+.donform {
+    position: relative;
+}
+
+.rect  {
+    width: 1180px;
+    height: 421px;  
+    margin: auto;   
+}
+
+.orange {
+    background: #FF6B00;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.green {
+    background: #B1CC74;
+    border-radius: 0 0 20px 20px;
+}
+
+.white {
+    width: 1020px;
+    height: 654px;
+    margin: auto;
+
+    background: #FFFFFF;
+    box-shadow: -18px 18px 29px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;  
+}
+
+.centr {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.par {
+    width: 355px;
+    height: 654px;
+    
+    float: right;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.don {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 1.2;
+    text-align: none;
+
+    color: #000000;
+    letter-spacing: normal;
+}
+
+
 
 
 
