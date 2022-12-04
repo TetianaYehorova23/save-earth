@@ -420,7 +420,7 @@ h3 {
 
 .centr {
     position: absolute;
-    top: 47%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -434,6 +434,12 @@ h3 {
     border-radius: 0px 20px 20px 0px;
 }
 
+.form {
+    position: absolute;
+    width: 565px;
+    height: 567px;
+}
+
 .don {
     font-weight: 600;
     font-size: 31px;
@@ -443,6 +449,7 @@ h3 {
     color: #000000;
     letter-spacing: normal;
 }
+
 
 
 
