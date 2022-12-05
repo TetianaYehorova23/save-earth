@@ -166,17 +166,38 @@
                         <h3 class="don">Donation form</h3>
 
                         <form>
-                            <label for="name">Name</label><br>
-                            <input type="text" id="name" name="name" placeholder="Your name" required><br>
-                            <label for="email">E-mail</label><br>
-                            <input type="email" id="email" name="email" placeholder="Your e-mail" required><br>
-                            <label for="tel">Phone</label><br>
-                            <input type="tel" id="tel" name="tel" placeholder="Your phone" required><br>
-                            <label for="amount">Amount</label><br>
-                            <input type="amount" id="amount" name="amount" placeholder="Your amount" required><br>
-                            <label for="Message">Message</label><br>
-                            <textarea name="message" rows="5" col="20" placeholder="Write your message" optional></textarea><br>
-                            <input type="submit" value="Donate">
+                            <div class="space-between">
+                                <div class="field">
+                                    <label for="name">Name</label>
+                                    <input class="border-bottom-input" type="text" id="name" name="name" placeholder="Your name" required>
+                                </div>
+    
+                                <div class="field">
+                                    <label for="email">E-mail</label>
+                                    <input class="border-bottom-input" type="email" id="email" name="email" placeholder="Your e-mail" required>
+                                </div>    
+                            </div>
+                            
+                            <div class="space-between">
+                                <div class="field">
+                                    <label for="tel">Phone</label>
+                                    <input class="border-bottom-input" type="tel" id="tel" name="tel" placeholder="Your phone" required>
+                                </div>
+                                
+                                <div class="field">
+                                    <label for="amount">Amount</label>
+                                    <input class="border-bottom-input" type="amount" id="amount" name="amount" placeholder="Your amount" required>
+                                </div>
+                            </div>
+
+                            <div class="message-field">
+                                <label for="Message">Message</label>
+                                <textarea name="message" rows="5" col="20" placeholder="Write your message..." optional></textarea>
+                            </div>
+
+                            <footer>
+                                <input type="submit" class="btn-submit" value="DONATE">
+                            </footer>  
                         </form>
                     </div>
                     <img class="par" src="../save-earth/img/parrot.png" alt="parrot">
