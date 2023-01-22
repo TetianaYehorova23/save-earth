@@ -168,26 +168,60 @@
                         <form>
                             <div class="space-between">
                                 <div class="field">
-                                    <label for="name">Name</label>
-                                    <input class="border-bottom-input" type="text" id="name" name="name" placeholder="Your name" required>
-                                </div>
+                                    <div class="field">
+                                        <label for="name">Name</label>
+                                        <input class="border-bottom-input" type="text" id="name" name="name" placeholder="Your name" required>
+                                    </div>
     
+                                    <div class="field-error">
+                                        <label for="name-error">Name</label>
+                                        <input class="border-bottom-error" id="name-error" type="text" placeholder="Enter your name" required>
+                                        <p class="error-msg">Please enter your name</p>
+                                    </div>
+                                </div>
+                                
                                 <div class="field">
-                                    <label for="email">E-mail</label>
-                                    <input class="border-bottom-input" type="email" id="email" name="email" placeholder="Your e-mail" required>
-                                </div>    
+                                    <div class="field">
+                                        <label for="email">E-mail</label>
+                                        <input class="border-bottom-input" type="email" id="email" name="email" placeholder="Your e-mail" required>
+                                    </div> 
+
+                                    <div class="field-error">
+                                        <label for="email-error">E-mail</label>
+                                        <input class="border-bottom-error" type="email" id="email-error" name="email" placeholder="Enter your e-mail" required>
+                                        <p class="error-msg">Please enter your e-mail</p>
+                                    </div>
+                                </div>
+                                   
                             </div>
                             
                             <div class="space-between">
                                 <div class="field">
-                                    <label for="tel">Phone</label>
-                                    <input class="border-bottom-input" type="tel" id="tel" name="tel" placeholder="Your phone" required>
+                                    <div class="field">
+                                        <label for="tel">Phone</label>
+                                        <input class="border-bottom-input" type="tel" id="tel" name="tel" placeholder="Your phone" required>
+                                    </div>
+
+                                    <div class="field-error">
+                                        <label for="tel-error">Phone</label>
+                                        <input class="border-bottom-error" type="tel" id="tel-error" name="tel" placeholder="Enter your phone" required>
+                                        <p class="error-msg">Please enter your phone</p>
+                                    </div>
                                 </div>
                                 
                                 <div class="field">
-                                    <label for="amount">Amount</label>
-                                    <input class="border-bottom-input" type="amount" id="amount" name="amount" placeholder="Your amount" required>
+                                    <div class="field">
+                                        <label for="amount">Amount</label>
+                                        <input class="border-bottom-input" type="amount" id="amount" name="amount" placeholder="Your amount" required>
+                                    </div>
+
+                                    <div class="field-error">
+                                        <label for="amount-error">Amount</label>
+                                        <input class="border-bottom-error" type="amount" id="amount-error" name="amount" placeholder="Enter your amount" required>
+                                        <p class="error-msg">Please enter your amount</p>
+                                    </div>
                                 </div>
+                                
                             </div>
 
                             <div class="message-field">
