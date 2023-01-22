@@ -462,6 +462,10 @@ h3 {
     gap: 5px; 
 }
 
+.field-error {
+    display: none;
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;
@@ -486,6 +490,15 @@ textarea {
     padding: 5px 10px;
 }
 
+.error-msg {
+    margin: 0;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ff0000;
+}
+
 .field > input,
 .field > textarea {
     outline: none !important;
@@ -495,6 +508,12 @@ textarea {
     width: 259px;
     border:0;
     border-bottom: 2px solid rgba(255, 107, 0, 0.7);
+}
+
+.border-bottom-error {
+    width: 259px;
+    border:0;
+    border-bottom: 2px solid #ff0000;
 }
 
 input:optional {
@@ -539,6 +558,7 @@ label {
     gap: 10px;
     margin-top: 30px;
 }
+
 
 textarea {
     width: 564px;
