@@ -497,6 +497,23 @@ textarea {
     border-bottom: 2px solid rgba(255, 107, 0, 0.7);
 }
 
+input:optional {
+    border-color: rgba(255, 107, 0, 0.7);;
+}
+
+textarea:optional {
+    border-color: rgba(255, 107, 0, 0.7);;
+}
+
+input:required:valid {
+    border-color: black;
+}
+
+textarea:required:valid {
+    border-color: black;
+}
+
+
 label {
     font-weight: 600;
     font-size: 20px;
@@ -512,9 +529,9 @@ label {
     font-size: 16px;
     line-height: 1.2;
     
-
     color: #555A55;
 }
+
 
 .message-field {
     display: flex;
@@ -543,12 +560,17 @@ textarea {
     letter-spacing: 0.31em;
 
     color: #FFFFFF;
-    background: #FF7D00;
+    background: rgba(255, 125, 0, 0.8);;
     border-radius: 10px;
     border: none;
 
     margin-top: 50px;
 }
+
+.btn-submit:hover {
+    background: #FF7D00;
+}
+
 
 
 
