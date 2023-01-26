@@ -480,8 +480,12 @@ h3 {
     color: rgba(255, 107, 0, 0.7);
 }
 
-input,
-textarea {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="amount"],
+textarea  {
+    font-family: 'Playfair Display';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.2;
@@ -489,6 +493,7 @@ textarea {
 
     padding: 5px 10px;
 }
+
 
 .error-msg {
     margin: 0;
@@ -510,6 +515,10 @@ textarea {
     border-bottom: 2px solid rgba(255, 107, 0, 0.7);
 }
 
+.border-bottom-input:focus {
+    border-bottom: 2px solid #000;
+}
+
 .border-bottom-error {
     width: 259px;
     border:0;
@@ -520,18 +529,10 @@ input:optional {
     border-color: rgba(255, 107, 0, 0.7);;
 }
 
+
 textarea:optional {
     border-color: rgba(255, 107, 0, 0.7);;
 }
-
-input:required:valid {
-    border-color: black;
-}
-
-textarea:required:valid {
-    border-color: black;
-}
-
 
 label {
     font-weight: 600;
@@ -563,9 +564,11 @@ label {
 textarea {
     width: 564px;
     height: 136px;
+    box-sizing: border-box;
 
     border: 2px solid rgba(255, 107, 0, 0.8);
     border-radius: 5px;
+    resize: none;
 }
 
 .btn-submit {
