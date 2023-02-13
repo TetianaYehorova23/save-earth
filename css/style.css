@@ -191,6 +191,7 @@ h1 {
 }
 
 .btn {
+    font-family: 'Playfair Display', serif;
     font-size: 32px;
     letter-spacing: 0.3em;
     font-style: normal;
@@ -293,6 +294,7 @@ h3 {
 }
 
 .btn-learn {
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.2;
