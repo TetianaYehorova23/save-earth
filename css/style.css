@@ -276,11 +276,14 @@ h3 {
     letter-spacing: 0.3em;
 
     text-align: center;
-
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 0;
 
     color: #FF7D00;
+}
+
+.m-t {
+    margin-top: 20px;
 }
 
 .text {
@@ -301,12 +304,14 @@ h3 {
     color: #FFFFFF;
     padding: 5px 10px;
 
-    margin: 0 20px 20px 20px;
-    float: right;
-
     background: #34623F;
     border-radius: 10px;
     border: none;
+}
+
+.marg {
+    margin: 0 20px 20px 20px;
+    float: right;
 }
 
 .btn-learn:hover {
@@ -327,6 +332,11 @@ h3 {
 
 .img-bor {
     border-radius: 20px;  
+}
+
+.img-bor:hover {
+    transform: scale(1.03);
+    filter: brightness(0.9);
 }
 
 .block-content {
@@ -376,7 +386,7 @@ h3 {
     flex-direction: row;
     justify-content: space-around;
 
-    margin: 0 20px 30px 20px;
+    margin: 0 20px 0px 20px;
 }
 
 .img-s {
@@ -384,10 +394,6 @@ h3 {
     height: 202px;
 }
 
-
-.conteiner > h2 {
-    padding-top: 0;
-}
 
 /* Donation form */
 .donform {
@@ -596,8 +602,33 @@ textarea {
     background: #FF7D00;
 }
 
+/* What we do */
+div#whatwedo.conteiner.br {
+    margin: 100px auto 0;
+}
+
+.br {
+    border-radius: 20px 20px 0px 0px;;
+}
+
+.card {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
+}
+
+.bg-white {
+    background: white;
+}
+
+.post {
+    width: 356px;
+    height: 265px;
+}
 
 
+figcaption > h3 {
+    margin-top: 0;
+}
 
 
 
