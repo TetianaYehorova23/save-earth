@@ -116,6 +116,7 @@ body {
 
 .layout-nav > ul > .dropdown {
     position: relative;
+    display: inline-block;
 }
 
 .dropdown-menu a:hover {
@@ -141,7 +142,7 @@ body {
     padding:       0;
     margin:        0;
 
-    min-width:     130px;
+    min-width:     auto;
 }
 
 .dropdown-menu > li > a {
@@ -342,15 +343,17 @@ h3 {
 .block-content {
     display: flex;
     flex-direction: row;
+    transition: transform .2s; /* Animation */
 }
 
 .block-cont {
     display: flex;
     flex-direction: row-reverse;
+    transition: transform .2s; /* Animation */
 }
 
 /* Our mission */
-.conteiner {
+.container {
     box-sizing: border-box;
     width: 1180px;
     height: 812px;
@@ -367,6 +370,7 @@ h3 {
     justify-content: space-around;
 
     padding: 50px 20px 15px 20px;
+    transition: transform .2s; /* Animation */
 }
 
 .res {
@@ -387,6 +391,7 @@ h3 {
     justify-content: space-around;
 
     margin: 0 20px 0px 20px;
+    transition: transform .2s; /* Animation */
 }
 
 .img-s {
@@ -603,8 +608,9 @@ textarea {
 }
 
 /* What we do */
-div#whatwedo.conteiner.br {
+div#whatwedo.container.br {
     margin: 100px auto 0;
+    height: 671px;
 }
 
 .br {
@@ -616,9 +622,13 @@ div#whatwedo.conteiner.br {
     justify-content: space-around;
 }
 
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
 .card:hover {
     filter: drop-shadow(10px 10px 24px #34623F);
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .card-headline {
@@ -652,6 +662,64 @@ div#whatwedo.conteiner.br {
     margin-right: 20px;
     float: right;
 }
+/* By the numbers */
+div#bythenumbers {
+    width: 1180px;
+    height: 367px;
+
+    margin-top: 0;
+}
+
+.bor {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 20px;
+}
+.box {
+    background-color: #E8FCC2;
+
+    width: 1140px;
+    height: 194px;
+    border-radius: 20px;
+    border: 3px solid #34623F;
+
+    display: inline-flex;
+    justify-content: space-between;
+
+    margin: 0px 20px;
+}
+
+.block-card {
+    width: 1180px;
+    height: 736px;
+}
+
+.bg-color {
+    background-color: #E8FCC2;
+}
+
+.bord-rad {
+    border-radius: 20px;
+}
+
+.margin-block {
+    margin: 100px auto 0px;
+}
+
 
 
 
