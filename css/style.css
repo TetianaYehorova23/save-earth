@@ -662,6 +662,8 @@ div#whatwedo.container.br {
     margin-right: 20px;
     float: right;
 }
+
+
 /* By the numbers */
 div#bythenumbers {
     width: 1180px;
@@ -703,6 +705,8 @@ div#bythenumbers {
     margin: 0px 20px;
 }
 
+/* How we di it*/
+
 .block-card {
     width: 1180px;
     height: 736px;
@@ -719,7 +723,28 @@ div#bythenumbers {
 .margin-block {
     margin: 100px auto 0px;
 }
+.rectangle {
+    width: 681px;
+    height: 450px;
+    float: right;
+    padding: 0px 20px 20px 342px;
+    margin: 50px 100px 0px 0px;
+}
 
+h2#howwedoit {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.block-card-image {
+  margin: 236px 0px 50px 100px; 
+  position: absolute;
+}
+
+.green-shadow {
+    box-shadow: 5px 5px 41px 5px #34623F;;
+}
 
 
 
