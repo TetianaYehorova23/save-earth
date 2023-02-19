@@ -29,7 +29,7 @@
                         
                         <ul>
                             <li class="dropdown">
-                                <a href="aboutus">About us</a>
+                                <a href="#aboutus">About us</a>
 
                                 <div class="dropdown-wrapper">
                                     <ul class="dropdown-menu">
@@ -44,20 +44,28 @@
                                 </div>
                             </li>
     
-                            <li>
-                                <a href="Whatwedo">What we do</a>
+                            <li class="dropdown">
+                                <a href="#whatwedo">What we do</a>
+
+                                <div class="dropdown-wrapper">
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#bythenumbers">By the numbers</a>
+                                        </li>  
+                                    </ul>
+                                </div>
                             </li>
     
                             <li>
-                                <a href="waystohelp">ways to help</a>
+                                <a href="#waystohelp">ways to help</a>
                             </li>
     
                             <li>
-                                <a href="news">news</a>
+                                <a href="#news">news</a>
                             </li>
     
                             <li>
-                                <a href="contact">contact</a>
+                                <a href="#contact">contact</a>
                             </li>
                         </ul>
                         
@@ -132,7 +140,7 @@
            </div>
         </div>      
         <!--Our Mission <-->
-        <div id="ourmission" class="conteiner">
+        <div id="ourmission" class="container">
             <div class="top">
                 <img class="img-bor res" src="../save-earth/img/Researchers.png" alt="reserchers">
                 <img class="img-bor bee" src="../save-earth/img/bee.png" alt="bee">
@@ -237,46 +245,98 @@
         </div>
 
         <!--What we do-->
-        <div id="whatwedo" class="conteiner br">
+        <div id="whatwedo" class="container br">
             <h2>What we do</h2>
 
-            <div>
-                <div>
-                    <img class="card" src="../save-earth/img/card1.png" width="356" height="237">
+            <div class="flex zoom">
+                <div class="card">
+                    <div>
+                        <img class="card-img" src="../save-earth/img/card1.png" width="356" height="237">
+                    </div>
+                    <div class="bg-white post">
+                        <h3 class="card-headline">Post one</h3>
+                        <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            At proin tincidunt duis consectetur etiam in. 
+                            Commodo consequat orci, sed rhoncus odio at. </p>
+                        <button class="btn-learn card-btn">Learn more</button>
+                    </div>
                 </div>
-                <div class="bg-white post">
-                    <h3>Post one</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        At proin tincidunt duis consectetur etiam in. 
-                        Commodo consequat orci, sed rhoncus odio at. </p>
-                    <button class="btn-learn">Learn more</button>
+    
+                <div class="card">
+                    <div>
+                        <img class="card-img" src="../save-earth/img/card2.png" width="356" height="237">
+                    </div>
+                    <div class="bg-white post">
+                        <h3 class="card-headline">Post two</h3>
+                        <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            At proin tincidunt duis consectetur etiam in. 
+                            Commodo consequat orci, sed rhoncus odio at. </p>
+                        <button class="btn-learn card-btn">Learn more</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div>
+                        <img class="card-img" src="../save-earth/img/card3.png" width="356" height="237">
+                    </div>
+                    <div class="bg-white post">
+                        <h3 class="card-headline">Post three</h3>
+                        <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            At proin tincidunt duis consectetur etiam in. 
+                            Commodo consequat orci, sed rhoncus odio at. </p>
+                        <button class="btn-learn card-btn">Learn more</button>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <img class="card" src="../save-earth/img/card2.png" width="356" height="237">
-                </div>
-                <div class="bg-white post">
-                    <h3>Post two</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        At proin tincidunt duis consectetur etiam in. 
-                        Commodo consequat orci, sed rhoncus odio at. </p>
-                    <button class="btn-learn">Learn more</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img class="card" src="../save-earth/img/card3.png" width="356" height="237">
-                </div>
-                <div class="bg-white post">
-                    <h3>Post three</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        At proin tincidunt duis consectetur etiam in. 
-                        Commodo consequat orci, sed rhoncus odio at. </p>
-                    <button class="btn-learn">Learn more</button>
-                </div>
-            </div>
+        </div>
+        <div id="bythenumbers" class="block bor mb">
+            <h2>By the numbers</h2>
 
+            <div class="box">
+                    <div class="row">
+                        <img src="../save-earth/icon/leaf.svg" alt="green leaf">
+                        <span class="left">>50% Conservation areas
+                            in country were created with our participation for the last 15 years
+                        </span>
+                    </div>
+                    <div class="row">
+                        <img src="../save-earth/icon/tree.svg" alt="tree">
+                        <span class="left">>19,500ha
+                            Protected forests with our participation
+                        </span>
+                    </div>
+                    <div class="row">
+                        <img src="../save-earth/icon/fish.svg" alt="fish">
+                        <span class="left">>98,550ha
+                            Protected wetlands with our participation
+                        </span>
+                    </div>
+                    <div class="row">
+                        <img src="../save-earth/icon/microscope.svg" alt="microscope">
+                        <span class="left">	1,200+
+                            Nature conservation scientific materials elaborated
+                        </span>
+                    </div>
+            </div> 
+        </div>
+        
+
+        <div class="block-card margin-block bg-color bord-rad">
+            <div class="bg-white rectangle bord-rad green-shadow">
+                <h2 id="howwedoit">How we do it</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Imperdiet purus etiam placerat aliquet a nisl, non.
+                    Scelerisque nec lacus est donec risus. Montes, 
+                    non at et sagittis cras duis at velit tortor. 
+                    In velit sit imperdiet sed sapien elementum 
+                    ante ut malesuada.
+                </p>
+                <button class="btn-learn card-btn">Learn more</button>
+            </div>
+            <div>
+                <img class="block-card-image green-shadow bord-rad" src="../save-earth/img/elephants.png" alt="elephants" width="559px"
+                height="450px">
+            </div>
         </div>
     </body>
 </html>
