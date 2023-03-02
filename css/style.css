@@ -338,6 +338,7 @@ h3 {
 .img-bor:hover {
     transform: scale(1.03);
     filter: brightness(0.9);
+    transition: transform .2s; 
 }
 
 .block-content {
@@ -745,6 +746,66 @@ h2#howwedoit {
 .green-shadow {
     box-shadow: 5px 5px 41px 5px #34623F;;
 }
+
+/* Ways to help*/
+.q {
+    display: block;
+    text-align: center;
+    padding: 0px 161px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.animalcard {
+    margin-top: 30px;
+    position: relative;
+    max-width: 360px;
+    max-height: 538px;
+    filter: drop-shadow(-15px 15px 30px rgba(0, 0, 0, 0.25));
+}
+
+.card-title {
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    letter-spacing: normal;
+}
+
+.animalcard img {
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card-descr{
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    opacity: 0;
+    font-size: x-large;
+    padding: 32px 62px;
+    background-color: white;
+    overflow-y: scroll;
+    transition: 0.8s ease;
+}
+
+.animalcard:hover .card-descr {
+    opacity: 1;
+    height: 100%; 
+}
+
 
 
 
