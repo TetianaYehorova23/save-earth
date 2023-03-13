@@ -1017,9 +1017,19 @@ label.m-btn:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 5px 10px;
+    padding: 30px 10px;
     margin: 15px auto;
 
     color: #B1CC74;
 }
+
+.fa-brands {
+    color: rgba(52, 98, 63, 0.7);
+}
+
+.fa-brands:hover {
+    color: #34623F;
+}
+
+
 
