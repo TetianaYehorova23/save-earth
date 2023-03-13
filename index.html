@@ -341,7 +341,7 @@
 
         <!--Ways to help-->
         <div class="block bord-rad" style="width: 1180px; height: auto;">
-            <h2>Ways to help</h2>
+            <h2 id="waystohelp">Ways to help</h2>
             <q class="q">Protecting the planet means opposing the destruction of the oceans, forests and climate and fighting to defend our air, land and waters from wild pollution.
                 Solutions, changes, actions are needed.
                 We need people like you by our side!
@@ -385,6 +385,77 @@
                     </p>
                 </div>
             </div>
+        </div>
+
+        <!--News-->
+        <div class="block-card margin-block bg-color br" style="height: auto; width: 1180px;">
+
+            <h2 id="news">News</h2>
+
+            <section class="section">
+                <div class="slider">
+                    <div class="slide">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                        <div class="st first">   
+                            <img src="../save-earth/img/mans_bee.png" alt="#">
+                            <div class="cap-bot">
+                                <p class="newsdate">Fri Jun 23 2023</p>
+                                <p class="newsheadline">Headline</p>
+                                <p class="newstext">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+
+                        <div class="st">
+                            <img src="../save-earth/img/monkey.png" alt="#">
+                            <div class="cap-bot">
+                                <p class="newsdate">Fri Jun 23 2023</p>
+                                <p class="newsheadline">Headline</p>
+                                <p class="newstext">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+
+                        <div class="st">
+                            <img src="../save-earth/img/river.png" alt="#">
+                            <div class="cap-bot">
+                                <p class="newsdate">Fri Jun 23 2023</p>
+                                <p class="newsheadline">Headline</p>
+                                <p class="newstext">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+
+                        <div class="nav-auto">
+                            <div class="a-b1"></div>
+                            <div class="a-b2"></div>
+                            <div class="a-b3"></div>
+                        </div>
+
+                        <div class="nav-m">
+                            <label for="radio1" class="m-btn"></label>
+                            <label for="radio2" class="m-btn"></label>
+                            <label for="radio3" class="m-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script type="text/javascript">
+                var counter=1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked=true;
+                    counter++;
+                    if(counter > 3){
+                        counter = 1;
+                    }
+                },5000);
+            </script>
+        </div>
+
+        <!--Footer-->
+        <div class="block">
+            
         </div>
     </body>
 </html>
