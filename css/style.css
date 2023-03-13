@@ -806,13 +806,143 @@ h2#howwedoit {
     height: 100%; 
 }
 
+/*News*/
+h2#news {
+    padding-bottom: 0;
+}
 
+.section {
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+.slide {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
 
+.slide input {
+    display: none;
+}
 
+.st {
+    width: 20%;
+    transition: 2s;
+}
 
+.st img {
+    width: 800px;
+    height: 500px;
+}
 
+.nav-m {
+    position: absolute;
+    width: 800px;
+    margin-top: 530px;
+    justify-content: center;
+    display: flex;
+}
 
+label.m-btn {
+    border: 2px solid rgba(52, 98, 63, 0.75);
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
 
+label.m-btn:not(:last-child){
+    margin-right: 30px;
+}
 
+label.m-btn:hover {
+    color: #34623F;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+.nav-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 530px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div {
+    border: 2px solid #34623F;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1 {
+    background-color: #34623F;
+}
+#radio2:checked ~ .nav-auto .a-b2 {
+    background-color: #34623F;
+}
+#radio3:checked ~ .nav-auto .a-b3 {
+    background-color: #34623F;
+}
+
+.cap-bot {
+    background: rgba(52, 98, 63, 0.58);
+    color: white;
+    padding: 10px 25px;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.newsdate {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    margin: 0;
+}
+
+.newsheadline {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.33333;
+    margin: 0;
+}
+
+.newstext {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.35;
+    margin: 0;
+}
