@@ -791,14 +791,17 @@ h2#howwedoit {
 .card-descr{
     display: block;
     position: absolute;
+    height: 100%;
     margin: 0;
     top: 0;
     opacity: 0;
-    font-size: x-large;
+    font-size: large;
     padding: 32px 62px;
     background-color: white;
-    overflow-y: scroll;
+
     transition: 0.8s ease;
+
+    border-radius: 20px;
 }
 
 .animalcard:hover .card-descr {
@@ -808,28 +811,27 @@ h2#howwedoit {
 
 /*News*/
 h2#news {
-    padding-bottom: 0;
-    padding-top: 50px;
+    padding: 30px 0;
 }
 
 .section {
-    padding: 0;
-    height: 650px;
+    padding-bottom: 70px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slider {
-    width: 800px;
-    height: 500px;
+    width: 1146px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
 }
 
 .slide {
     width: 500%;
-    height: 500px;
+    height: 600px;
     display: flex;
 }
 
@@ -843,14 +845,14 @@ h2#news {
 }
 
 .st img {
-    width: 800px;
-    height: 500px;
+    width: 1146px;
+    height: 600px;
 }
 
 .nav-m {
     position: absolute;
-    width: 800px;
-    margin-top: 530px;
+    width: 1146px;
+    margin-top: 630px;
     justify-content: center;
     display: flex;
     margin-bottom: 30px;
@@ -883,10 +885,14 @@ label.m-btn:hover {
     margin-left: -40%;
 }
 
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
 .nav-auto {
     position: absolute;
-    width: 800px;
-    margin-top: 530px;
+    width: 1146px;
+    margin-top: 630px;
     display: flex;
     justify-content: center;
 }
@@ -910,9 +916,12 @@ label.m-btn:hover {
 #radio3:checked ~ .nav-auto .a-b3 {
     background-color: #34623F;
 }
+#radio4:checked ~ .nav-auto .a-b4 {
+    background-color: #34623F;
+}
 
 .cap-bot {
-    background: rgba(52, 98, 63, 0.7);
+    background: rgba(0, 0, 0, 0.35);
     color: white;
     padding: 10px 25px;
     position: sticky;
