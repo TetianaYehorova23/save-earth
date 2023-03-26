@@ -15,7 +15,12 @@ body {
     margin: 0;
 }
 
-.bg-img {
+img.bg-img {
+    width: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: brightness(70%);
 }
 
@@ -162,9 +167,15 @@ body {
     background: #34623F;
 }
 
-.d-desk-none {
+ul.d-desk-none {
     display: none;
 }
+
+ul.d-none.d-block {
+    display: none;
+}
+
+
 
 /* Home page */
 
@@ -1045,6 +1056,7 @@ label.m-btn:hover {
 }
 
 @media screen and (max-width: 820px) {
+
     .bg-img {
         width: auto;
     }
@@ -1062,7 +1074,7 @@ label.m-btn:hover {
         display: none;
     }
 
-    .d-desk-none {
+    ul.d-desk-none {
         display: block;
     }
 
@@ -1084,8 +1096,26 @@ label.m-btn:hover {
         margin-top: 75px;
         top: 615px;
     }
+
+    .block {
+        margin: 50px auto 0 auto;
+        width: 700px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
     
     
-    
+}
+
+@media screen and (max-width: 320px) {
+    ul.d-none.d-block {
+        display: block;
+    }
+
+    ul.d-desk-none {
+        display: none;
+    }
 }
 
