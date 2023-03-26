@@ -162,6 +162,10 @@ body {
     background: #34623F;
 }
 
+.d-desk-none {
+    display: none;
+}
+
 /* Home page */
 
 h1 {
@@ -185,7 +189,7 @@ h1 {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 260px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -1040,5 +1044,48 @@ label.m-btn:hover {
     color: #34623F;
 }
 
+@media screen and (max-width: 820px) {
+    .bg-img {
+        width: auto;
+    }
 
+    .layout-header {
+        left: 60px;
+        right: 60px;
+    }
+
+    .dropdown-menu > li > a {
+        font-size: 12px;
+    }
+
+    ul.d-tab-none {
+        display: none;
+    }
+
+    .d-desk-none {
+        display: block;
+    }
+
+    h1 {
+        font-size: 54px;
+        font-weight: 800;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .centered {
+        top: 352px;
+    }
+
+    .btn {
+        padding: 5px 40px;
+        margin-top: 75px;
+        top: 615px;
+    }
+    
+    
+    
+}
 
