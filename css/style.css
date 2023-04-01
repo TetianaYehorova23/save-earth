@@ -1058,7 +1058,7 @@ label.m-btn:hover {
 @media screen and (max-width: 820px) {
 
     .bg-img {
-        width: auto;
+        width: 100%;
     }
 
     .layout-header {
@@ -1079,7 +1079,7 @@ label.m-btn:hover {
     }
 
     h1 {
-        font-size: 54px;
+        font-size: 52px;
         font-weight: 800;
         line-height: 1.5;
         display: flex;
@@ -1088,13 +1088,19 @@ label.m-btn:hover {
     }
 
     .centered {
-        top: 352px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
     }
 
     .btn {
+        font-size: 28px;
         padding: 5px 40px;
-        margin-top: 75px;
-        top: 615px;
+        margin-top: -15%;
+    
     }
 
     .block {
@@ -1105,7 +1111,39 @@ label.m-btn:hover {
     h2 {
         font-size: 40px;
     }
+
+    q {
+        font-size: 14px;
+    }
     
+    .size {
+        display: none;
+    }
+    .content {
+        width: 660px;
+    }
+
+    .container {
+        width: 700px;
+        height: 539px;
+    }
+    .top {
+        padding: 30px 20px 15px 20px;
+    }
+
+    .res {
+        width: 385px;
+        height: 174px;
+        margin-right: 9px;
+    }
+    .bee {
+        width: 266px;
+        height: 174px;
+    }
+    .img-s {
+        width: 160px;
+        height: 117px;
+    }
     
 }
 
