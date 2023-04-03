@@ -1077,7 +1077,7 @@ label.m-btn:hover {
     }
 
     h1 {
-        font-size: 52px;
+        font-size: 48px;
         font-weight: 800;
         line-height: 1.5;
         display: flex;
@@ -1087,7 +1087,7 @@ label.m-btn:hover {
 
     .centered {
         position: absolute;
-        top: 35%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -1097,7 +1097,7 @@ label.m-btn:hover {
     .btn {
         font-size: 28px;
         padding: 5px 40px;
-        margin-top: -15%;
+        margin-top: -55%;
     
     }
 
