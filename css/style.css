@@ -101,7 +101,7 @@ img.bg-img {
 }
 
 .layout-nav > ul > li > a {
-    color: #FFFFFF;
+    color: #fdfdfd;
     text-decoration: none;
     
     padding: 5px 10px;
@@ -186,7 +186,7 @@ h1 {
 
     margin: 0;
 
-    color: #FFFFFF; 
+    color: #fdfdfd; 
 }
 
 
@@ -213,7 +213,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 1.34375;
-    color: #FFFFFF;
+    color: #fdfdfd;
 
     padding: 10px 60px;
 
@@ -315,7 +315,7 @@ h3 {
     font-size: 16px;
     font-weight: 600;
     line-height: 1.2;
-    color: #FFFFFF;
+    color: #fdfdfd;
     padding: 5px 10px;
 
     background: #34623F;
@@ -332,7 +332,7 @@ h3 {
     color: #34623F;
     
     padding: 2px 7px;
-    background: #FFFFFF;
+    background: #fdfdfd;
     border: 3px solid #34623F;
     border-radius: 10px;
 }
@@ -440,7 +440,7 @@ h3 {
     height: 654px;
     margin: auto;
 
-    background: #FFFFFF;
+    background: #fdfdfd;
     box-shadow: -18px 18px 29px rgba(0, 0, 0, 0.25);
     border-radius: 20px;  
 }
@@ -609,7 +609,7 @@ textarea {
     text-align: center;
     letter-spacing: 0.31em;
 
-    color: #FFFFFF;
+    color: #fdfdfd;
     background: rgba(255, 125, 0, 0.8);;
     border-radius: 10px;
     border: none;
@@ -662,7 +662,7 @@ div#whatwedo.container.br {
 }
 
 .bg-white {
-    background: white;
+    background: #fdfdfd;
 }
 
 .post {
@@ -785,7 +785,7 @@ h2#howwedoit {
 .card-title {
     display: block;
     text-align: center;
-    background-color: white;
+    background-color: #fdfdfd;
     padding: 2%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -810,7 +810,7 @@ h2#howwedoit {
     opacity: 0;
     font-size: large;
     padding: 32px 62px;
-    background-color: white;
+    background-color: #fdfdfd;
 
     transition: 0.8s ease;
 
@@ -1053,6 +1053,26 @@ label.m-btn:hover {
     color: #34623F;
 }
 
+@media screen and (max-width: 1024px) {
+    .layout-nav > ul > li {
+        font-size: 16px;
+    }
+    .dropdown-menu > li > a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+    .centered {
+        top: 40%;
+    }
+    .btn {
+        font-size: 28px;
+        top: 65%
+    }
+}
+
 @media screen and (max-width: 820px) {
 
     .bg-img {
@@ -1077,7 +1097,7 @@ label.m-btn:hover {
     }
 
     h1 {
-        font-size: 52px;
+        font-size: 48px;
         font-weight: 800;
         line-height: 1.5;
         display: flex;
@@ -1087,7 +1107,7 @@ label.m-btn:hover {
 
     .centered {
         position: absolute;
-        top: 35%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -1097,7 +1117,7 @@ label.m-btn:hover {
     .btn {
         font-size: 28px;
         padding: 5px 40px;
-        margin-top: -15%;
+        margin-top: -55%;
     
     }
 
@@ -1145,7 +1165,27 @@ label.m-btn:hover {
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
+    .logo-img {
+        width: 24px;
+        height: 24px;
+    }
+    .logo-name {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 12px;
+        top: 35%
+    }
+
+    .centered {
+        top: 15%
+    }
     ul.d-none.d-block {
         display: block;
     }
