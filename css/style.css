@@ -17,6 +17,7 @@ body {
 
 img.bg-img {
     width: 100%;
+    height: 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -215,7 +216,7 @@ h1 {
     line-height: 1.34375;
     color: #fdfdfd;
 
-    padding: 10px 60px;
+    padding: 14px 40px;
 
     background: rgba(255, 107, 0, 0.75);
     box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.25);
@@ -1173,6 +1174,7 @@ label.m-btn:hover {
 }
 
 @media screen and (max-width: 380px) {
+
     .logo-img {
         width: 32px;
         height: 32px;
@@ -1291,8 +1293,9 @@ label.m-btn:hover {
     }
     .white {
         width: 330px;
-        height: 658px;
+        height: 612px;
     }
+    
 
     .form {
         margin: 0;
@@ -1336,7 +1339,7 @@ label.m-btn:hover {
     
         font-size: 16px;
         
-        margin-top: 30px;
+        margin-top: 20px;
     }
     form {
         width: 330px;
@@ -1348,10 +1351,15 @@ label.m-btn:hover {
     .border-bottom-error {
         width: 310px;
     }
+    .message-field {
+        margin-top: 20px;
+    }
 
     .flex {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
+        padding-bottom: 30px;
     }
 
     div#whatwedo.container.br {
@@ -1377,4 +1385,31 @@ label.m-btn:hover {
         margin: 0 10px;
     }
 
+    div#bythenumbers {
+        width: 330px;
+        height: auto;
+    }
+    .box {
+        width: 310px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    span {
+        font-size: 12px;
+    }
+    .i {
+        width: 40px;
+        height: 40px;
+    }
+    .row {
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .row:first-child {
+        padding-top: 10px;
+    }
 }
