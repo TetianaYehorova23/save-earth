@@ -759,6 +759,11 @@ h2#howwedoit {
     box-shadow: 5px 5px 41px 5px #34623F;;
 }
 
+.m-b {
+    margin-bottom: 0px;
+}
+
+
 /* Ways to help*/
 #waystohelp {
     width: 1180px;
