@@ -826,7 +826,7 @@ h2#howwedoit {
 }
 
 /*News*/
-h2#news {
+.newshead {
     padding: 30px 0;
 }
 
@@ -1461,4 +1461,59 @@ label.m-btn:hover {
         font-size: small;
         height: 100%;
     }
+
+    div#news.block-card.margin-block.bg-color.br {
+        max-width: 330px;
+    }
+    .newshead {
+        padding: 20px 0;
+    }
+    .slider {
+        width: 330px;
+        height: 256px;
+    }
+    .slide {
+        height: 256px;
+    }
+    .st img {
+        width: 330px;
+        height: 256px;
+    }
+    .section {
+        padding: 0 10px;
+        padding-bottom: 30px;
+    }
+    .newsheadline {
+        font-size: 18px;
+    }
+    .newstext {
+        font-size: 14px;
+    }
+    .footer {
+        width: 330px;
+        height: 283px;
+        margin-bottom: 30px;
+
+        padding-top: 30px;
+    }
+    .list > li > a  {
+        font-size: 16px;
+    }
+    .row-vector {
+        gap: 16px;
+        justify-content: space-around;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer div.row {
+        display: contents;
+    }
+    .list{
+        margin: 30px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
 }
